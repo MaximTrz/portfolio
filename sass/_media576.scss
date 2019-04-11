@@ -50,5 +50,24 @@
         background: none;
     }
 
+    .hero-subtitle {
+        font-size: 20px;
+      }
+      
+      .hero-title {
+        font-size: 25px;
+        font-weight: 800;
+      }
+    
+      .hero-buttons {
+        margin-top: 30px;
+        display: flex;        
+      }
+        
+      .button {
+        padding: 15px 30px;
+        font-size: 14px;        
+      }
+
  /***********************************************************************/   
 }

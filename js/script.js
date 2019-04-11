@@ -4,8 +4,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
     
     buttonMenuBox.addEventListener("click", ()=>{
         menuList.classList.toggle("hideSM");
-        menuList.classList.toggle("showSM");        
-        console.log(menuList);
+        menuList.classList.toggle("showSM");
     });    
     
 });

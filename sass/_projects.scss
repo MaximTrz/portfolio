@@ -1,0 +1,76 @@
+.projects {
+  padding-top: 70px;
+}
+
+.project-cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;  
+}
+
+.project-card {
+  min-height: 370px;
+  max-width: 400px;
+  width: 300px;
+  border-radius: 10px 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+}
+
+.project-card__image {
+  height: 300px;
+}
+
+.cake {
+  background: url(../img/projects/cake.jpg) center no-repeat;
+  background-size: 100%;
+}
+
+.door {
+  background: url(../img/projects/door.jpg) center no-repeat;
+  background-size: 100%;
+}
+
+.legal {
+  background: url(../img/projects/legal.jpg) center no-repeat;
+  background-size: 100%;
+}
+
+.cert {
+  background: url(../img/projects/cert.jpg) center no-repeat;
+  background-size: 100%;
+}
+
+.landing-page {
+  background: url(../img/projects/cert.jpg) center no-repeat;
+  background-size: 100%;
+}
+
+.web-design {
+  background: url(https://s.tmimgcdn.com/scr/58400/personal-loans-responsive-landing-page-template-with-builder_58478-big.jpg?width=768&height=476) ;
+  background-size: 100%;
+}
+
+.corporate {
+  background: url(https://www.pardot.com/content/uploads/2015/10/shutterstock_2280700301.jpg);
+  background-size: 100%;
+}
+
+.project-card__info {
+  padding: 19px 13px;
+}
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.project-category {
+  display: block;
+  font-size: 12px;
+}
