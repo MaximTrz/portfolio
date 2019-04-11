@@ -17,6 +17,9 @@
   overflow: hidden;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   margin-bottom: 50px;
+  &:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  }
 }
 
 .project-card__image {
@@ -43,20 +46,6 @@
   background-size: 100%;
 }
 
-.landing-page {
-  background: url(../img/projects/cert.jpg) center no-repeat;
-  background-size: 100%;
-}
-
-.web-design {
-  background: url(https://s.tmimgcdn.com/scr/58400/personal-loans-responsive-landing-page-template-with-builder_58478-big.jpg?width=768&height=476) ;
-  background-size: 100%;
-}
-
-.corporate {
-  background: url(https://www.pardot.com/content/uploads/2015/10/shutterstock_2280700301.jpg);
-  background-size: 100%;
-}
 
 .project-card__info {
   padding: 19px 13px;
@@ -73,4 +62,40 @@
 .project-category {
   display: block;
   font-size: 12px;
+}
+
+.project-iconBox{
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 40px;
+}
+
+.imageBox{
+  display: flex;
+  align-items: stretch;
+  position: relative;
+}
+
+.divider{
+  width: 10px;
+  background-color: black;  
+  position: absolute;      
+  height: 100%;
+  z-index: 1000;
+}
+
+.imageBlock{
+  overflow: hidden;
+  position: absolute;
+  width: 100px;
+  &_left{
+    left: 0;
+    top: 0;       
+    z-index: 3;
+  }
+  &_right{     
+    left: 0;
+    top: 0;
+    z-index: 1;    
+  }
 }
