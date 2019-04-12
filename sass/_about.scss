@@ -1,0 +1,29 @@
+.about {
+    padding: 100px 0 70px;
+    margin-bottom: 105px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: url('../img/about/bgc.png') no-repeat left;    
+  }
+  .me-photo{
+    width: 542px;
+    height: 606px;
+    background: url('../img/about/bgc.png') no-repeat center;    
+    background-size: 100%;    
+    
+  }
+  .about-me__info {
+    flex-basis: 500px;
+  }
+  .about-me__info-title {
+    font-size: 45px;
+    text-transform: uppercase;
+  }
+  .lorem {
+    font-family: Montserrat;
+    font-size: 16px;
+    margin-bottom: 52px;
+    line-height: 20px;
+    color: #717072;
+  }

@@ -162,7 +162,6 @@ button:focus {
   padding-top: 112px;
   padding-bottom: 112px;
   background: url("../img/hero/bgc.jpg") no-repeat center;
-  height: 500px;
 }
 
 .hero-subtitle {
@@ -220,8 +219,6 @@ button:focus {
   justify-content: space-between;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -ms-flex-line-pack: center;
-  align-content: center;
 }
 
 .project-card {
@@ -369,6 +366,112 @@ button:focus {
   margin-top: 10px;
 }
 
+.about {
+  padding: 100px 0 70px;
+  margin-bottom: 105px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: url("../img/about/bgc.png") no-repeat left;
+}
+
+.me-photo {
+  width: 542px;
+  height: 606px;
+  background: url("../img/about/bgc.png") no-repeat center;
+  background-size: 100%;
+}
+
+.about-me__info {
+  -ms-flex-preferred-size: 500px;
+  flex-basis: 500px;
+}
+
+.about-me__info-title {
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+.lorem {
+  font-family: Montserrat;
+  font-size: 16px;
+  margin-bottom: 52px;
+  line-height: 20px;
+  color: #717072;
+}
+
+.footer {
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+
+.footer a {
+  color: #8d8d8e;
+  text-decoration: none;
+}
+
+.footer-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.footer-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.copyright {
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #413f41;
+  font-size: 14px;
+}
+
+.footer-social__link {
+  font-size: 20px;
+  margin-right: 13px;
+}
+
+.footer-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer-menu a {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.footer-button {
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid #8d8d8e;
+  padding: 8px 22px;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-box-sizing: border-box;
@@ -383,6 +486,18 @@ body {
   .main {
     background: url("../img/hero/bgc.jpg") no-repeat right bottom;
     background-position: 70% 25px;
+  }
+
+  .about {
+    background: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .about-me__info {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
   }
 }
 
@@ -437,7 +552,7 @@ body {
 
   .main {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     background: none;
   }
 
@@ -460,6 +575,21 @@ body {
   .button {
     padding: 15px 30px;
     font-size: 14px;
+  }
+
+  /***********************************************************************/
+
+  /************************projects****************************************/
+
+  .project-cards {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .project-card {
+    max-width: 500px;
+    width: 500px;
   }
 
   /***********************************************************************/
