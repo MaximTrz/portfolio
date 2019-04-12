@@ -1,19 +1,51 @@
 @media screen and (max-width: 768px){
 
+ /*************************main*****************************************/     
 .main{
     background: url(../img/hero/bgc.jpg) no-repeat right bottom;   
 	background-position: 70% 25px;
 }
 
+ /**********************************************************************/ 
 
+
+ /*************************about****************************************/ 
 .about {
+    padding: 0px 0 100px;
+    margin-bottom: 0px;
     background: none;
     justify-content: center;
  }
+ 
 
  .about-me__info {
     flex-basis: 100%;
+ }
+
+ /**********************************************************************/ 
+
+
+  /*************************footer****************************************/ 
+ .footer-button{
+     display: none;
+ }
+
+
+
+ .footer-menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis: 400px;
+  
+    nav{
+        display: flex;
+        flex-basis: 200px;
+        justify-content: space-between;    
+    } 
+       
   }
 
-
+ /**********************************************************************/ 
+ 
 }

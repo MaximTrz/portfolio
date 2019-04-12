@@ -9,7 +9,7 @@
   }
   .footer-info{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;    
   }
   .footer-text{
     display: flex;
@@ -29,12 +29,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-basis: 400px;
+    nav{
+        display: flex;
+        flex-basis: 200px;
+        justify-content: space-between;
+    } 
+       
   }
+
   .footer-menu a {
-    font-size: 14px;
-    display: inline-block;
-    margin-right: 30px;
+    font-size: 14px;    
   }
+  
   .footer-button{
     background-color: transparent;
     border-radius: 50px;

@@ -222,7 +222,7 @@ button:focus {
 }
 
 .project-card {
-  min-height: 370px;
+  min-height: 300px;
   max-width: 400px;
   width: 300px;
   border-radius: 10px 10px;
@@ -238,7 +238,7 @@ button:focus {
 }
 
 .project-card__image {
-  height: 300px;
+  height: 250px;
 }
 
 .cake {
@@ -457,12 +457,23 @@ button:focus {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -ms-flex-preferred-size: 400px;
+  flex-basis: 400px;
+}
+
+.footer-menu nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 200px;
+  flex-basis: 200px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .footer-menu a {
   font-size: 14px;
-  display: inline-block;
-  margin-right: 30px;
 }
 
 .footer-button {
@@ -483,12 +494,20 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  /*************************main*****************************************/
+
   .main {
     background: url("../img/hero/bgc.jpg") no-repeat right bottom;
     background-position: 70% 25px;
   }
 
+  /**********************************************************************/
+
+  /*************************about****************************************/
+
   .about {
+    padding: 0px 0 100px;
+    margin-bottom: 0px;
     background: none;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -499,6 +518,41 @@ body {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
+
+  /**********************************************************************/
+
+  /*************************footer****************************************/
+
+  .footer-button {
+    display: none;
+  }
+
+  .footer-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-preferred-size: 400px;
+    flex-basis: 400px;
+  }
+
+  .footer-menu nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 200px;
+    flex-basis: 200px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  /**********************************************************************/
 }
 
 @media screen and (max-width: 576px) {
@@ -593,6 +647,32 @@ body {
   }
 
   /***********************************************************************/
+
+  /*************************about****************************************/
+
+  .about {
+    padding: 0px 0 50px;
+  }
+
+  /*********************************************************************/
+
+  /*****************************footer******************************/
+
+  .footer-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: 15px;
+  }
+
+  .footer-social__link {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+
+  /***********************************************************************/
 }
 
 @media screen and (max-width: 320px) {
@@ -609,6 +689,53 @@ body {
   .hero-buttons {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+  }
+
+  /*******************************************************************/
+
+  /*****************************footer******************************/
+
+  .footer-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .copyright {
+    font-size: 10px;
+  }
+
+  .footer-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-preferred-size: 200px;
+    flex-basis: 200px;
+  }
+
+  .footer-menu nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 200px;
+    flex-basis: 200px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+
+  .footer-menu nav a {
+    margin-bottom: 10px;
   }
 
   /*******************************************************************/

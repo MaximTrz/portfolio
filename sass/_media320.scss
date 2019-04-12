@@ -15,4 +15,39 @@
 }
 /*******************************************************************/  
 
+ /*****************************footer******************************/ 
+
+
+
+
+.footer-social{
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.copyright{
+    font-size: 10px;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis: 200px;
+  
+    nav{
+        display: flex;
+        flex-basis: 200px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        a{
+            margin-bottom: 10px;
+        }
+
+    } 
+       
+  }
+
+/*******************************************************************/  
+
 }
