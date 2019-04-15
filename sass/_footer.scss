@@ -47,4 +47,9 @@
     border-radius: 50px;
     border: 1px solid #8d8d8e;
     padding: 8px 22px;
-  }
+    &:hover{       
+      border-radius: 10px;                        
+      transition: all 0.3s;
+      transform: scale(1.05);    
+   }
+ }

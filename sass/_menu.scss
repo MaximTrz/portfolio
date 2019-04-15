@@ -76,7 +76,7 @@
     border: 2px solid $mainText;
     border-radius: 50px;
     background: none;
-
+    color: #2a2b2c;
 
     cursor: pointer;
     padding-left: 15px;
@@ -87,6 +87,9 @@
         border-radius: 10px;                        
         transition: all 0.3s;
         transform: scale(1.05);    
+    }
+    &:visited{
+        color: #2a2b2c;        
     }
 }
 

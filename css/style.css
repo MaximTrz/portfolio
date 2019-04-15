@@ -11,6 +11,10 @@ button:focus {
   outline: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -110,6 +114,7 @@ button:focus {
   border: 2px solid #2b2a2c;
   border-radius: 50px;
   background: none;
+  color: #2a2b2c;
   cursor: pointer;
   padding-left: 15px;
   padding-right: 15px;
@@ -123,6 +128,10 @@ button:focus {
   transition: all 0.3s;
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
+}
+
+.menu__button:visited {
+  color: #2a2b2c;
 }
 
 .buttonMenuBox {
@@ -237,6 +246,14 @@ button:focus {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
 }
 
+.project-date {
+  color: #2a2b2c;
+}
+
+.project-date :visited {
+  color: #2a2b2c;
+}
+
 .project-card__image {
   height: 250px;
 }
@@ -305,7 +322,9 @@ button:focus {
 
 .divider {
   width: 10px;
-  background-color: black;
+  background-color: #fff;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   position: absolute;
   height: 100%;
   z-index: 1000;
@@ -340,6 +359,10 @@ button:focus {
   margin-bottom: 10px;
 }
 
+.button:hover {
+  background-color: black;
+}
+
 .button-primary {
   color: #ffffff;
 }
@@ -349,6 +372,12 @@ button:focus {
   color: #6a696b;
   border: 2px solid #6a696b;
   margin-left: 7px;
+}
+
+.button-o:hover {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
 }
 
 .button-open {
@@ -481,6 +510,14 @@ button:focus {
   border-radius: 50px;
   border: 1px solid #8d8d8e;
   padding: 8px 22px;
+}
+
+.footer-button:hover {
+  border-radius: 10px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 body {
@@ -672,7 +709,7 @@ body {
     flex-basis: 100%;
   }
 
-  /***********************************************************************/
+  /*******************************************************************/
 }
 
 @media screen and (max-width: 320px) {
