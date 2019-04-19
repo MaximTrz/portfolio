@@ -217,6 +217,7 @@ a {
 
 .projects {
   padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .project-cards {
@@ -408,13 +409,7 @@ a {
   -ms-flex-align: center;
   align-items: center;
   background: url("../img/about/bgc.png") no-repeat left;
-}
-
-.me-photo {
-  width: 542px;
-  height: 606px;
-  background: url("../img/about/bgc.png") no-repeat center;
-  background-size: 100%;
+  background-size: 40%;
 }
 
 .about-me__info {
@@ -428,10 +423,9 @@ a {
 }
 
 .lorem {
-  font-family: Montserrat;
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 52px;
-  line-height: 20px;
+  line-height: 150%;
   color: #717072;
 }
 
