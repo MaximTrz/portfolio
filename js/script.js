@@ -29,6 +29,24 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
 
     });
+
+    let up = $('.up');
+
+    window.addEventListener('scroll', function(){
+      
+      if ((window.pageYOffset>100)&&(up.is(':hidden'))) {
+        up.show(300);
+        
+      }
+      if ((window.pageYOffset<100)&&(up.is(':visible'))){
+        up.hide(300);
+      }
+
+    });
+
+    up.on('click', function(){
+      $('html, body').animate({scrollTop:0}, 200);
+    })
     
 
     
