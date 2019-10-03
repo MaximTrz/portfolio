@@ -19,7 +19,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
     });
 
 
-    $('.menuList__item').on('click', function(e){
+    $('.menuItem').on('click', function(e){
       e.preventDefault();
       
       let href = $(this).attr('href'),

@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Веб-разработчик</title>
 	<meta name=viewport content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css\animate.css">
 	<link rel="stylesheet" href="css\bootstrap-grid.min.css">
@@ -17,7 +17,7 @@
 	<div class="container">
 		<div class="menu">
 			<div class="menu__logo">
-			  <div class="avatar">
+			  <div class="avatar hide">
 				
 			  </div>
 			  <div class="description">
@@ -31,9 +31,9 @@
 			</div>
 		
 			<nav class="menuList hideSM">
-				<a href="#projects" class="menuList__item">Мои работы</a>
-				<a href="#about" class="menuList__item">Обо мне</a>
-				<a href="#footer" class="menuList__item">Контакты</a>
+				<a href="#projects" class="menuItem menuList__item">Мои работы</a>
+				<a href="#about" class="menuItem menuList__item">Обо мне</a>
+				<a href="#footer" class="menuItem menuList__item">Контакты</a>
 				<a href="mailto:maxim.trz@gmail.com" class="menu__button hideSM">Написать</a>
 			</nav>
 				
@@ -85,6 +85,25 @@
 <section id="projects" class="projects">
 	<div class="container">
 		<div class="project-cards">
+
+			<div class="project-card">
+				<div class="project-card__image photo"></div>
+				<div class="project-card__info">
+					<strong class="project-title">
+						<span class="project-name">
+							Печать фото онлайн
+						</span>
+						<div class="project-iconBox">
+							<a href="https://github.com/MaximTrz/Cake" target="_blank" class="project-date">
+								<i class="fab fa-github"></i>
+							</a>
+							<a href="https://maximtrz.github.io/Cake/" target="_blank" class="project-date">
+								<i class="fab fa-chrome"></i>
+							</a>
+						</div>
+					</strong>
+				</div>
+			</div>
 			
 			<div class="project-card">
 				<div class="project-card__image cake"></div>
@@ -110,7 +129,7 @@
 				<div class="project-card__info">
 					<strong class="project-title">
 						<span class="project-name">
-							Пополнение баланса
+							Личный кабинет
 						</span>
 						<div class="project-iconBox">
 							<a href="https://github.com/MaximTrz/flagman_PHP" target="_blank" class="project-date">
@@ -183,7 +202,7 @@
 					<div class="project-card__image imageBox">
 							
 									<div class="imageBlock imageBlock_left">
-										<img src="img/kungur.jpg" alt="">
+										<img src="img/kungur.jpg" alt="Кунгур">
 									</div>
 									<!-- /.imageBlock_left -->
 								
@@ -193,7 +212,7 @@
 									<!-- /.divider -->
 								
 									<div class="imageBlock imageBlock_right">
-										<img src="img/kungur_blur.jpg" alt="">
+										<img src="img/kungur_blur.jpg" alt="Кунгур">
 									</div>
 									<!-- /.imageBlock_left -->
 							
@@ -201,7 +220,7 @@
 					<div class="project-card__info">
 						<strong class="project-title">
 							<span class="project-name">
-								До и После
+								Функция "До и После"
 							</span>
 							<div class="project-iconBox">
 								<a href="https://github.com/MaximTrz/redrawing" target="_blank" class="project-date">
@@ -210,6 +229,35 @@
 							</div>
 						</strong>
 					</div>
+				</div>
+
+				<div class="project-card">
+						<div class="project-card__image"></div>
+						<div class="project-card__info">
+							<strong class="project-title">
+								<span class="project-name">
+									
+								</span>
+								<div class="project-iconBox">
+
+								</div>
+							</strong>
+						</div>
+				</div>
+				
+				<div class="project-card">
+						<div class="project-card__image"></div>
+						<div class="project-card__info">
+							<strong class="project-title">
+								<span class="project-name">
+									
+								</span>
+								<div class="project-iconBox">
+									
+
+								</div>
+							</strong>
+						</div>
 				</div>
 			
 
@@ -264,8 +312,8 @@
 			</div>
 			<div class="footer-menu">
 			  <nav>
-				<a href="#projects">Мои работы</a>
-				<a href="#about">Обо мне</a>		
+				<a class="menuItem" href="#projects">Мои работы</a>
+				<a class="menuItem" href="#about">Обо мне</a>		
 			  </nav>
 			  <a href="mailto:maxim.trz@gmail.com" class="footer-button">Написать мне</a>			  
 			</div>

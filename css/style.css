@@ -284,6 +284,11 @@ a {
   background-size: 100%;
 }
 
+.photo {
+  background: url("../img/projects/foto.jpg") center no-repeat;
+  background-size: 100%;
+}
+
 .project-card__info {
   padding: 19px 13px;
 }
