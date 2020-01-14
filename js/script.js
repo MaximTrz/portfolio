@@ -1,4 +1,17 @@
 window.addEventListener('DOMContentLoaded', ()=>{
+
+    let a = "qqq"; 
+    b = Number(a);
+    
+    console.log(b);
+
+    if (isNaN(b)){
+      console.log('111111');
+    }
+
+    console.log(typeof(b));
+
+
     let menuList = document.querySelector(".menuList"),
         buttonMenuBox = document.querySelector(".buttonMenuBox");
     
